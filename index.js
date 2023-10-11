@@ -3,6 +3,11 @@ const inquirer = require('inquirer');
 const questions = [
     {
         type: 'input',
+        message: 'Enter your project title...',
+        name: 'Title',
+    },
+    {
+        type: 'input',
         message: 'Enter a description for your project...',
         name: 'Description',
     },
@@ -37,16 +42,38 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
+function readMeString(response) {
+    questions.forEach(name => {
+        
+    });
+    console.log(process.cwd());
+    let fileString = `
+    # ${response.Title}
+    ${response.Description}
+    ## Installation Instructions
+    ${response.Installation}
+    ## Usage
+    ${response.Usage}
+    ## License
+    ${response.License}
+    ## Credits
+    ${response.Credits}
+    ## FAQs
+    ${response.FAQs}
+    ` ;
+    console.log(fileString);
+}
 
-
-inquirer
-  .prompt(questions)
-  .then((response) =>
-    console.log(response)
-  );
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((response) =>
+            readMeString(response)
+        
+  );
+}
 
 // Function call to initialize app
 init();

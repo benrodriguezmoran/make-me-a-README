@@ -1,28 +1,5 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.4"
-  },
-  "name": "make-me-a-readme",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benrodriguezmoran/make-me-a-README.git"
-  },
-  "keywords": [
-    "README",
-    "Automation",
-    "Utility"
-  ],
-  "author": "Ben Rodriguez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benrodriguezmoran/make-me-a-README/issues"
-  },
-  "homepage": "https://github.com/benrodriguezmoran/make-me-a-README#readme",
-  "description": ""
+    "inquirer": "^9.2.11"
+  }
 }
