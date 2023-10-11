@@ -43,25 +43,8 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 function readMeString(response) {
-    questions.forEach(name => {
-        
-    });
-    console.log(process.cwd());
-    let fileString = `
-    # ${response.Title}
-    ${response.Description}
-    ## Installation Instructions
-    ${response.Installation}
-    ## Usage
-    ${response.Usage}
-    ## License
-    ${response.License}
-    ## Credits
-    ${response.Credits}
-    ## FAQs
-    ${response.FAQs}
-    ` ;
-    console.log(fileString);
+    
+
 }
 
 
