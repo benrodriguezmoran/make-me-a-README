@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+inquirer = import('inquirer');
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 const questions = [
     {
