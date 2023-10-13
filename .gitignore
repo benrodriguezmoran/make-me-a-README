@@ -132,3 +132,4 @@ dist
 # Mac Something
 .DS_Store/
 
+.output/
