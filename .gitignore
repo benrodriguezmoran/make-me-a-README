@@ -132,4 +132,5 @@ dist
 # Mac Something
 .DS_Store/
 
-.output/*
+.output/
+.output/README.md

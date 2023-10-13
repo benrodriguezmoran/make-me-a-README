@@ -14,15 +14,15 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
     return `
 # ${data.title}
-${(data.description !== '') ? `${data.description}` : ``}
+${(data.description !== '') ? `${data.description}` : null}
 ${(data.installation !== '') ? `## Installation 
 ${data.installation}` : ``}
-${(data.Usage !== '') ? `## Usage 
-${data.Usage}` : ``}
-## Credits
-${data.credits}
-## License
-${(typeof data.license !== 'undefined' && data.license == 'None') ? `${data.license}` : ``}
+${(data.usage !== '') ? `## Usage 
+${data.usage}` : ``}
+${(data.credits !== '') ? `## Credits 
+${data.credits}` : ``}
+${(data.license !== '') ? `## License 
+${renderLicenseSection(data.license)}` : ``}
 ## Questions
 ${data.github}
 ${data.email}
