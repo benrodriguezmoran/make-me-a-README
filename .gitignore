@@ -81,7 +81,7 @@ web_modules/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-.parcel-cache
+.parcel-cache.output/
 
 # Next.js build output
 .next
@@ -132,5 +132,5 @@ dist
 # Mac Something
 .DS_Store/
 
-.output/
-.output/README.md
+output/
+
