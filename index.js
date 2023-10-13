@@ -1,7 +1,6 @@
-import inquirer from 'inquirer';
-import fs from 'fs';
-import generateMarkdown from './utils/generateMarkdown';
-
+inquirer = require('inquirer');
+fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown");
 const { error } = require('console');
 
 
@@ -9,14 +8,14 @@ const questions = [
     {
       type: 'input',
       name: 'title',
-      message: 'Enter the title of your project:',
+      message: 'Enter the title of your project:'
     },
     {
       type: 'input',
       name: 'description',
       message: 'Provide a short description of your project:',
     },
-    {
+    {    
       type: 'input',
       name: 'installation',
       message: 'What are the steps required to install your project? Provide a step-by-step description:',
@@ -67,7 +66,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-        .createPromptModule(questions)
+        .prompt(questions)
         .then((answers)=> {
             const readmeContent = generateMarkdown(answers);
             writeToFile('README.md', readmeContent);
