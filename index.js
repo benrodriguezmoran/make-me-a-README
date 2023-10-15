@@ -43,6 +43,11 @@ const questions = [
     },
     {
       type: 'input',
+      name: 'githemailub',
+      message: 'Enter your email:',
+    },
+    {
+      type: 'input',
       name: 'features',
       message: 'If your project has a lot of features, list them here:',
     },
