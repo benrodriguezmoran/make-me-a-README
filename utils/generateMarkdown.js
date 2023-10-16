@@ -28,12 +28,11 @@ ${(data.description !== '') ? `${data.description}` : null}
 ${(data.installation !== '') ? `- [Installation](#installation)` : ``}
 ${(data.usage !== '') ? `- [Usage](#usage)` : ``}
 ${(data.credits !== '') ? `- [Credits](#credits)` : ``}
-${(data.license !== 'None') ? `- [License](#license)` : ``}
+${(data.license !== '') ? `- [License](#license)` : ``}
 ${(data.github !== '') ? `- [Questions](#questions)` : ``}
 ${(data.features !== '') ? `- [Features](#features)` : ``}
 ${(data.contribution !== '') ? `- [Contribution](#contribution)` : ``}
 ${(data.tests !== '') ? `- [Tests](#tests)` : ``}
-
 ${(data.installation !== '') ? `## Installation 
 ${data.installation}` : ``}
 ${(data.usage !== '') ? `## Usage 
