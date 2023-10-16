@@ -43,8 +43,8 @@ ${data.credits}` : ``}
 ${(data.license !== 'None') ? `## License 
 ${renderLicenseSection(data.license)}` : ``}
 ## Questions
-${(data.github !== '') ? `- Github ${data.github}` : ``} ${(data.email !== '') ? `
-- Email ${data.email}` : ``}
+${(data.github !== '') ? `- Github [${data.github}](https://github.com/${data.github})` : ``} ${(data.email !== '') ? `
+- Email [${data.email}](mailto:${data.email})` : ``}
 ${(data.features !== '') ? `## Features 
 ${data.features}` : ``}
 ${(data.contribution !== '') ? `## Contributuion 
