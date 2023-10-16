@@ -34,7 +34,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'Choose a license for your application:',
-      choices: ['MIT', 'Apache', 'GPL', 'None'],
+      choices: ['mit', 'Apache', 'gpl-3.0', 'None'],
     },
     {
       type: 'input',
@@ -43,7 +43,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'githemailub',
+      name: 'email',
       message: 'Enter your email:',
     },
     {
