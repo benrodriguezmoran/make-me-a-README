@@ -17,10 +17,11 @@ Install nodeJS and inquirer 8.4.2, run 'node index.js' in your terminal. Complet
 ## Usage 
 WIP
 
-## License 
-``md
-    ![github license](https://img.shields.io/badge/license-gpl-3.0-blue.svg) [GPL-3.0 Licensing](https://choosealicense.com/licenses/gpl-3.0/)
-``
+## License
+
+![github license](https://img.shields.io/badge/license-gpl-3.0-blue.svg)
+[GPL-3.0 Licensing](https://choosealicense.com/licenses/gpl-3.0/)
+
 ## Questions
 - Github benrodriguez 
 - Email ben.rodriguezmoran
