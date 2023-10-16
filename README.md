@@ -1,7 +1,7 @@
 
 # make-me-a-README
-Generates the user professional README file
-
+Generates a professionally styled and thrurough README file for use in any project.
+![screenshot](assets/images/screenshot.png)
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,17 +13,17 @@ Generates the user professional README file
 
 
 ## Installation 
-Use nodejs
+Install nodeJS and inquirer 8.4.2, run 'node index.js' in your terminal. Complete the prompted questions and a README.md file will be created in the /output folder.
 ## Usage 
-Use
+WIP
 
 ## License 
 
-    undefined undefined
+    ![github license](https://img.shields.io/badge/license-gpl-3.0-blue.svg) [GPL-3.0 Licensing](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Questions
-- Github benrodriguezmoran 
-- Email undefined
+- Github benrodriguez 
+- Email ben.rodriguezmoran
 
 
 
