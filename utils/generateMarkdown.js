@@ -33,13 +33,14 @@ ${(data.github !== '') ? `- [Questions](#questions)` : ``}
 ${(data.features !== '') ? `- [Features](#features)` : ``}
 ${(data.contribution !== '') ? `- [Contribution](#contribution)` : ``}
 ${(data.tests !== '') ? `- [Tests](#tests)` : ``}
+
 ${(data.installation !== '') ? `## Installation 
 ${data.installation}` : ``}
 ${(data.usage !== '') ? `## Usage 
 ${data.usage}` : ``}
 ${(data.credits !== '') ? `## Credits 
 ${data.credits}` : ``}
-${(data.license !== 'None') ? `## License 
+${(data.license !== '') ? `## License 
 ${renderLicenseSection(data.license)}` : ``}
 ## Questions
 ${(data.github !== '') ? `- Github [${data.github}](https://github.com/${data.github})` : ``} ${(data.email !== '') ? `
