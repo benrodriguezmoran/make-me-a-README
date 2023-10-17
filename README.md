@@ -19,7 +19,7 @@ WIP
 
 ## License
 
-![[GPL-3.0 Licensing](https://choosealicense.com/licenses/gpl-3.0/)badge](https://img.shields.io/badge/license-gpl-3.0-blue.svg)
+[![GPL-3.0 Licensing](https://choosealicense.com/licenses/gpl-3.0/)badge](https://img.shields.io/badge/license-gpl-3.0-blue.svg)
 
 ## Questions
 - Github benrodriguez 
