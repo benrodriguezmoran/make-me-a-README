@@ -1,29 +1,31 @@
 
-# NodeJS-SVG-Logo-Maker
-Generates the user a simplistic vector logo from 2 colors, 3 letters, and a choice of background shape.
-![screenshot](./output/logo.svg)
+# demo project
+![badge](https://img.shields.io/badge/license-MIT-blue.svg)
+just a demonstration
+![screenshot](assets/images/screenshot.png)
 ## Table Of Contents
 - [Installation](#installation)
 
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
+- [Features](#features)
 
-
-
+- [Tests](#tests)
 
 ## Installation 
-Install inquirer into the project folder with `npm i inquirer@8.2.4 and then run with `node index.js`
+just watch
 
 ## Credits 
-MSU Fullstack Bootcamp course material
+some collaborators
 ## License 
 
-    ![badge](https://img.shields.io/badge/license-mit-blue.svg) [MIT Licensing](https://choosealicense.com/licenses/mit/)
+    ![badge](https://img.shields.io/badge/license-MIT-blue.svg) [MIT Licensing](https://opensource.org/license/mit/)
 
 ## Questions
 - Github [benrodriguezmoran](https://github.com/benrodriguezmoran) 
-- Email [ben.rodriguezmoran@gmail.com](mailto:ben.rodriguezmoran@gmail.com)
+## Features 
+some features
 
-
-
+## Tests 
+none here
