@@ -19,7 +19,8 @@ WIP
 
 ## License
 
-[![GPL-3.0 Licensing](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+![MIT Licensing](https://img.shields.io/badge/license-MIT-blue.svg)
+[MIT Licensing](https://choosealicense.com/licenses/mit/)
 
 ## Questions
 - Github benrodriguez 

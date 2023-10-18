@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    return `![badge](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![badge](https://img.shields.io/badge/license-${license.toUpperCase()}-blue.svg)`;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    return `[${license.toUpperCase()} Licensing](https://choosealicense.com/licenses/${license}/)`;
+    return `[${license.toUpperCase()} Licensing](https://opensource.org/license/${license}/)`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -22,6 +22,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     return `
 # ${data.title}
+${renderLicenseBadge(data.license)}
 ${(data.description !== '') ? `${data.description}` : null}
 ![screenshot](assets/images/screenshot.png)
 ## Table Of Contents
