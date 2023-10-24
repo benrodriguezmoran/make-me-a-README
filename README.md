@@ -5,11 +5,12 @@ Generates a professionally styled and thrurough README file for use in any proje
 ![screenshot](assets/images/screenshot.png)
 ## Table Of Contents
 - [Installation](#installation)
-
+- [Usage](#usage)
 - [License](#license)
 - [Questions](#questions)
 
-
+## Usage
+[Youtube demonstration](https://youtu.be/CtD6V15fj3M)
 
 
 ## Installation 
@@ -19,7 +20,6 @@ Install nodeJS and inquirer 8.4.2, run 'node index.js' in your terminal. Complet
 
 ## License
 
-![badge](https://img.shields.io/badge/license-MIT-blue.svg) 
 Read more about [MIT Licensing](https://choosealicense.com/licenses/mit/)
 
 ## Questions
