@@ -2,7 +2,7 @@
 # make-me-a-README
 ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 Generates a professionally styled and thrurough README file for use in any project.
-![screenshot](assets/images/screenshot.png)
+
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
